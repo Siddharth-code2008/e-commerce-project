@@ -342,12 +342,13 @@ function productsrc(category){
             boxes[i].appendChild(add_button);
             
 
-            let a = 1;
+            
             add_button.addEventListener("click",() =>{
-                add_button.innerText = `Add: ${a}`;
+                add_button.innerText = "added";
+                add_button.style.backgroundColor = "green";
+                add_button.style.color = "white";
                 localStorage.setItem(product.name,JSON.stringify(product.name));
-                a++;
-
+            
             })            
             i++;
             

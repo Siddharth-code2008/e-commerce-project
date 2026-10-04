@@ -27,40 +27,7 @@ html,body{
     align-items: center;
 }
 
-.search_bar{
-    display: flex;
-    flex-direction: row;
-}
-.category{
-    height: 40px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: none;
-    background-color: rgb(218, 217, 217);
-    width: 70px;
-}
-.search{
-    height: 20px;
-    padding: 10px;
-    width: 400px;
-    border: none;
 
-}
-.search_div{
-    background-color: rgb(243, 209, 99);
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 60px;
-    border: none;
-}
-.search_logo{
-    height: 20px;
-}
 .cart{
     display: flex;
     align-items: center;
@@ -89,8 +56,9 @@ html,body{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     margin-top: 10px;
+    gap: 10px;
 }
 .cart_div{
     background-color: white;
@@ -122,7 +90,7 @@ html,body{
     flex-direction: row;
     padding: 10px;
     margin-top: 10px;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .product_image{
@@ -154,5 +122,93 @@ html,body{
 
 .product_remove:hover{
     border:2px solid black ;
+}
+
+
+.summary{
+    padding: 10px;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order_summary{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 5, 58);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+
+.total{
+    height: auto;
+    width: 595px ;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.order_div{
+    border-radius: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.order_name{
+    color: black;
+    font-size: 15px;
+}
+.order_price{
+    color: black;
+    font-size: 15px;
+}
+
+
+
+.total_cost{
+    border: 1px solid black;
+    height: 40px;
+    width: 590px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cost{
+    color: black;
+}
+
+
+.place_div{
+    display: flex;
+    justify-content: center;
+}
+
+.place_order{
+    border: 1px solid transparent;
+
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width:180px;
+    border-radius: 10px;
+}
+.place_order:hover{
+    border: 1px solid black;
 }
 
