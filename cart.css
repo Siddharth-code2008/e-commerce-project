@@ -109,7 +109,7 @@ html,body{
 .product_div{
     border-radius: 10px;
     border: 2px solid black;
-    width: 44vw;
+    width: 42vw;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -119,16 +119,21 @@ html,body{
 }
 
 @media (max-width : 600px){.product_div{
-    width: 86vw;
+    width: 84vw;
 }}
 
 .product_image{
-    height: 80px;
+    height: 15vh;
     border-radius: 5px;
-    width: 100px;
+    width: 10vw;
     object-fit: cover;
     
 }
+@media (max-width : 600px){.product_image{
+    width: 22vw;
+    height: 10vh;
+}}
+
 .product_name{
     color: black;
 }
