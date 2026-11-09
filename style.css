@@ -12,13 +12,11 @@ html,body{
 
 #navbar{
     background-color: rgb(7, 7, 36);
-    padding: 10px 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-
+    width:100vw ;
+    padding: 10px 0px 10px 0px;}
 
 .main_logo{
     color: white;
@@ -26,28 +24,50 @@ html,body{
     font-size: larger;
     display: flex;
     align-items: center;
+    margin-left: 10px
+    
 }
+@media (max-width : 600px){.main_logo{
+    font-size:small;
+}}
+
 
 .cart{
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
+
 .cart_logo{
     height: 30px;
 }
-
+@media (max-width : 600px){.cart_logo{
+    height: 15px;
+}}
 
 #category{
     background-color: rgba(1, 1, 43, 0.863);
     display: flex;
-    padding: 5px;
     justify-content: space-evenly;
+    width: 100vw;
+    padding: 5px 0px 5px 0px;
 }
+
+@media (max-width : 600px) {#category{
+    padding: 2px 0px 2px 0px;
+}}
+
 .opt{
     color: white;
     text-decoration: none;
     padding: 2px;
     border: 1px solid transparent;
+}
+
+@media (max-width : 600px) {.opt{
+    font-size: 10px;
+}
+    
 }
 .opt:hover{
     border: 1px solid white;
@@ -59,48 +79,81 @@ html,body{
 }
 .banner1{
     width: 100%;
+    padding-bottom: 10px;
 }
-
-
-
-
 
 #boxes{
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 10px;
 }
 
 .head{
-    padding: 10px 
+    padding: 5px ;
 }
+
+
+@media (max-width:600px){.head{
+    padding: 5px;
+
+}}
 .box{
-    width: 390px;
-    height: 400px;
+    width: 23vw;
+    height: auto;
     border-radius: 10px;
     border: 2px solid transparent;
     display: flex;
     flex-direction: column;
     background-color:white;
+    padding-bottom: 8px;
 }
+
+@media (max-width:600px){.box{
+    width: 45vw;
+
+}}
+
 .box:hover{
     border: 2px solid black;
 }
 
+
+@media (max-width:600px){h2{
+    font-size: medium;
+  
+
+}}
+.anchor_img{
+    display: flex;
+    justify-content: center;
+}
 .row{
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    justify-content: center;
     gap: 10px;
-
 }
+
+@media (max-width:600px){.row{
+    flex-wrap: wrap;
+
+}}
 
 .img{
-    height: 340px;
-    width: 300px;
+
+    height: 27vw;
+    width: 21vw;
+
     border-radius: 20px;
-    margin-left: 12px;
 }
+
+@media (max-width:600px){.img{
+    
+    height:50vw ;
+    width:40vw;
+    border-radius: 20px;
+}}
 
 
 
