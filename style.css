@@ -15,8 +15,9 @@ html,body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width:100vw ;
-    padding: 10px 0px 10px 0px;}
+    width:100%;
+     padding: 10px  0px 10px 0px  ;
+    }
 
 .main_logo{
     color: white;
@@ -24,7 +25,6 @@ html,body{
     font-size: larger;
     display: flex;
     align-items: center;
-    margin-left: 10px
     
 }
 @media (max-width : 600px){.main_logo{
@@ -35,7 +35,6 @@ html,body{
 .cart{
     display: flex;
     align-items: center;
-    margin-right: 10px;
 }
 
 .cart_logo{
@@ -49,13 +48,10 @@ html,body{
     background-color: rgba(1, 1, 43, 0.863);
     display: flex;
     justify-content: space-evenly;
-    width: 100vw;
-    padding: 5px 0px 5px 0px;
+    width: 100%;
+    padding: 10px 0px 10px 0px ;
 }
 
-@media (max-width : 600px) {#category{
-    padding: 2px 0px 2px 0px;
-}}
 
 .opt{
     color: white;
